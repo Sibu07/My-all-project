@@ -1,0 +1,88 @@
+label {
+            display: inline-block;
+            width: 120px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+        width: 300px;
+        height: 20px;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        color: #333;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+
+        }
+        input[type=text]:focus {
+        outline: none;
+        border-color: #4CAF50;
+        box-shadow: 0px 0px 10px 0px rgba(0, 128, 0, 0.2);
+    }
+
+    input[type=text]:hover {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #3e8e41;
+        }
+
+        #outputImage {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        #downloadButton {
+            display: block;
+            margin: 10px auto;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #F0F0F0;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: rebeccapurple;
+            font-family: Arial, sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px #aaa;
+            background-color: lightcyan;
+            border: 2px solid #ccc;
+            padding: 10px;
+        }
+#result{
+    color: #F0F0F;
+    font-size: 0px;
+}

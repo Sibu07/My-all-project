@@ -1,0 +1,115 @@
+/* CSS code to style the project container */
+
+/* Set background color for the entire surface of the webpage */
+body {
+  background-color: #f1f1f1; /* Replace with your desired color value */
+}
+
+.project-container {
+  background-color: #f8f8f8;  /* sets the background color of the container */
+  padding: 20px;  /* adds some padding around the container */
+  border-radius: 5px;  /* rounds the corners of the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  /* adds a drop shadow to the container */
+  text-align: center;  /* centers the container content horizontally */
+}
+
+.project-container h2 {
+  margin-top: 0;  /* removes the default top margin of the heading */
+  font-size: 28px;  /* sets the font size of the heading */
+  color: #333;  /* sets the color of the heading text */
+}
+
+.project-container a {
+  display: block;  /* makes the links into block elements */
+  margin-bottom: 10px;  /* adds some space between the links */
+  padding: 10px;  /* adds some padding to the links */
+  background-color: #ddd;  /* sets the background color of the links */
+  color: #333;  /* sets the color of the link text */
+  text-decoration: none;  /* removes the underline from the links */
+  border-radius: 5px;  /* rounds the corners of the links */
+  transition: background-color 0.2s ease-in-out;  /* adds a smooth transition effect */
+}
+
+.project-container a:hover {
+  background-color: #ccc;  /* changes the background color of the link on hover */
+}
+
+/* Styling for the modal */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black background with opacity */
+}
+
+/* Style for the password modal */
+#passwordModal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Set the modal to a fixed position */
+  z-index: 1; /* Set the z-index to make it appear on top of other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Allow scrolling if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Set a semi-transparent black background color */
+}
+
+/* Style for the modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered horizontally */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Set the width of the modal */
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* Style for the password input field */
+#passwordInput {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  /* Add this line to make the input field fill the width of its container */
+  box-sizing: border-box;
+}
+
+/* Style for the password submit button */
+#passwordSubmit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 767px) {
+  .modal-content {
+    margin: 30% auto; /* Center the modal content at 30% from the top of the screen */
+    padding: 10px; /* Reduce the padding to save space */
+  }
+  
+  #passwordInput {
+    margin-bottom: 10px; /* Reduce the margin-bottom to save space */
+    font-size: 14px; /* Reduce the font-size to fit better on the screen */
+  }
+  
+  #passwordSubmit {
+    font-size: 14px; /* Reduce the font-size to fit better on the screen */
+  }
+}
