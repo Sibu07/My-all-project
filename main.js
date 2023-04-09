@@ -38,7 +38,7 @@ project2Link.addEventListener("click", function(event) {
   event.preventDefault();  // prevent the link from opening the project immediately
   
   if (confirm("Do you want to continue with this project?")) {
-    window.location.href = "/Time-add/time.html";  // navigate to the project URL if user confirms
+    window.location.href = "Time-add/time.html";  // navigate to the project URL if user confirms
   }
 });
 
